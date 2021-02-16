@@ -31,8 +31,8 @@ function App () {
             if ( consultar ) {
 
                 try {
-                    const appId = 'e572565ef01e0d775a896b88ad2a9883';
-                    const url = `http://api.openweathermap.org/data/2.5/weather?q=${ ciudad },${ pais }&appid=${ appId }`;
+                    const appId = '847f0ca2a761f707303f706a90c7910c';
+                    const url = `https://api.openweathermap.org/data/2.5/weather?q=${ ciudad },${ pais }&appid=${ appId }`;
 
                     const respuesta = await fetch( url );
                     const resultado = await respuesta.json();
